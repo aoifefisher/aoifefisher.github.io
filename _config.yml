@@ -1,2 +1,4 @@
 name: Aoife Fisher, Big Data Analytics student
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
