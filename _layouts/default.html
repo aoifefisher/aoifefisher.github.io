@@ -1,8 +1,17 @@
----
-layout: default
-title: Aoife Fisher, Big Data Analytics student
----
-<div class="blurb">
-	<h1>Hi there, I'm Aoife Fisher !</h1>
-	<p>I'm currently working to create my first github page for my geog583 class. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <div class="blurb">
+      <h1>Hi there, I'm Aoife Fisher!</h1>
+      <p>I'm currently working to create my first GitHub page for my GEOG583 class. <a href="/about">Read more about my life...</a></p>
+    </div>
+
+    <!-- Injects Markdown content from index.md -->
+    {{ content }}
+  </body>
+</html>
+
